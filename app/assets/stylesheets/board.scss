@@ -1,4 +1,5 @@
 @import './variables';
+@import "mediaquery";
 
 $avatar-size: 45px;
 $container-padding: 16px;
@@ -84,8 +85,7 @@ $container-padding: 16px;
       font-weight: 400;
     }
     &:hover {
-
-      background-color: rgb(83,171,235, 0.7)
+      background-color: rgb(83,171,235)
     }
   }
 }

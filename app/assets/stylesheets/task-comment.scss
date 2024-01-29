@@ -1,5 +1,6 @@
 @import './variables';
 @import 'board';
+@import "mediaquery";
 
 .task {
   background-color: #F4F4F4;
@@ -81,7 +82,7 @@
     }
     &:hover {
 
-      background-color: rgb(83,171,235, 0.7)
+      background-color: rgb(83,171,235)
     }
   }
 }
