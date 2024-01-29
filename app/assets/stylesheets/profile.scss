@@ -1,0 +1,12 @@
+@import './variables';
+
+.profile {
+  margin-top: 24px;
+  &_label {
+    margin-bottom: 5px;
+  }
+  &_area {
+    margin: 5px 0 20px;
+  }
+  
+}

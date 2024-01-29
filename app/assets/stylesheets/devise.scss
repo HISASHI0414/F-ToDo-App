@@ -1,0 +1,69 @@
+@import 'variables';
+
+.space {
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  @include mq("pc") {
+    width: 500px;
+  }
+  @include mq("tab") {
+    width: 500px;
+  }
+}
+
+// sessions/new.html
+.devise {
+  margin-top: 20px;
+}
+
+.email, .password {
+  margin: 20px 0 15px;
+  &_label {
+    font-size: 14px;
+  }
+  &_area {
+    @extend .space;
+    background-color: #F4F4F4;
+    border-radius: 3px;
+    border: none;
+  }
+}
+
+.rememberable {
+  &_label {
+    font-size: 14px;
+  }
+
+  &_box {
+
+  }
+}
+
+.btn {
+  margin-top: 30px;
+  &_submit {
+    background-color: $primary-color;
+    @extend .space;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    font-size: $font-lg;
+  }
+}
+
+.links {
+  color: $text-base-color;
+  display: block;
+  margin: 20px 0 20px;
+}
+
+.account_destroy {
+  margin-top: 50px;
+  display: block;
+  background-color: $text-base-color;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  @extend .space;
+}
